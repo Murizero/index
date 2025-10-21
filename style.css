@@ -1,0 +1,91 @@
+ * {
+     padding: 0%;
+     margin: 0%;
+ }
+
+ nav {
+     background-color: aqua;
+     align-items: center;
+     display: flex;
+     padding: 20px;
+ }
+
+ ul {
+     color: brown;
+     width: 60%;
+     display: flex;
+     justify-content: space-between;
+     list-style: none;
+ }
+
+ h1 {
+     width: 30%;
+     color: brown;
+ }
+
+ div {
+     height: 100vh;
+     background-color: gray;
+     background-image: url(assets/20220412_013754.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: top;
+     background-attachment: fixed;
+     background: linear-gradient(to bottom, rgba(0, 0, 255, 0.205), rgba(78, 74, 74, 0.397), rgba(184, 59, 59, 0.452), rgba(0, 0, 0, 0.247)), url("assets/20220412_013754.jpg");
+     background-repeat: no-repeat;
+     background-position: top;
+     background-size: cover;
+     background-attachment: fixed;
+     height: 100vh;
+     filter: blur(10px);
+     filter: brightness(55%);
+     filter: contrast(30%);
+     filter: grayscale(60%);
+     */ filter: saturate(65%);
+ }
+
+ .hello {
+     color: blue;
+     font-size: 15rem;
+     text-align: center;
+ }
+
+ .one {
+     color: teal;
+     font-size: 12rem;
+     text-align: right;
+ }
+
+ .spanish {
+     color: darkgreen;
+     text-align: justify;
+     font-size: 5rem;
+ }
+
+ * {
+     border: 2px solid teal;
+ }
+
+ section* {
+     border: 2px solid red
+ }
+
+ div.text {
+     color: blue;
+ }
+
+ div p {
+     color: red;
+ }
+
+ a[href="one"] {
+     color: slateblue;
+ }
+
+ img[alt="a ball"] {
+     color: darkblue;
+ }
+
+ html {
+     background-color: gray;
+ }
